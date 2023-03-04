@@ -1,0 +1,9 @@
+clc;
+original=imread("D:\DIP_prac\cameraman.jpg"); 
+imgdouble=double(original);
+c=255;
+negative=c-original; 
+figure(1) 
+imshow(original); 
+figure(2)
+imshow(negative);
